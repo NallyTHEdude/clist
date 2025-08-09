@@ -51,10 +51,10 @@ python3 ./configure.py
 
 ### 4. Start the Development Container
 
-Use Docker Compose to build and run the development container:
+Use Docker Compose to build and run the development container on "localhost:8000" :
 
 ```
-docker compose up --build dev
+docker compose run -p 8000:10042 --build dev
 ```
 
 ### 5. Access the Application
