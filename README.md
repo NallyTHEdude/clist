@@ -59,7 +59,7 @@ docker compose run -p 8000:10042 --build dev
 
 ### 5. Access the Application
 
-Open your web browser and go to [http://localhost:10042/](http://localhost:10042/) to start using the application.
+Open your web browser and go to [http://localhost:8000/](http://localhost:8000/) to start using the application.
 
 ---
 
