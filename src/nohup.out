@@ -1,0 +1,26 @@
+WARNING:root:GeoIP database not found. Run ./manage.py download_geoip_database to download it.
+/usr/local/lib/python3.10/site-packages/tastypie_swagger/mapping.py:105: SyntaxWarning: "is" with a literal. Did you mean "=="?
+  plural = not detail and method is 'get'
+[2025-08-09 08:00:42] INFO [rq.worker.bootstrap:942] Worker c65521051308419a8ce3bacdc2f78700: started with PID 15, version 2.4.1
+[2025-08-09 08:00:42] INFO [rq.worker.subscribe:1038] Worker c65521051308419a8ce3bacdc2f78700: subscribing to channel rq:pubsub:c65521051308419a8ce3bacdc2f78700
+[2025-08-09 08:00:42] INFO [rq.worker.bootstrap:946] *** Listening on system, default, parse_statistics, parse_accounts...
+[2025-08-09 08:00:42] INFO [rq.worker.clean_registries:473] Worker c65521051308419a8ce3bacdc2f78700: cleaning registries for queue: system
+[2025-08-09 08:00:42] INFO [rq.worker.clean_registries:473] Worker c65521051308419a8ce3bacdc2f78700: cleaning registries for queue: default
+[2025-08-09 08:00:42] INFO [rq.worker.clean_registries:473] Worker c65521051308419a8ce3bacdc2f78700: cleaning registries for queue: parse_statistics
+[2025-08-09 08:00:42] INFO [rq.worker.clean_registries:473] Worker c65521051308419a8ce3bacdc2f78700: cleaning registries for queue: parse_accounts
+[2025-08-09 08:00:42] DEBUG [rq.queue.lpop:1363] Starting BLPOP operation for queues rq:queue:system, rq:queue:default, rq:queue:parse_statistics, rq:queue:parse_accounts with timeout of 405
+[2025-08-09 08:07:27] DEBUG [rq.queue.lpop:1367] BLPOP timeout, no jobs found on queues rq:queue:system, rq:queue:default, rq:queue:parse_statistics, rq:queue:parse_accounts
+[2025-08-09 08:07:27] DEBUG [rq.queue.lpop:1363] Starting BLPOP operation for queues rq:queue:system, rq:queue:default, rq:queue:parse_statistics, rq:queue:parse_accounts with timeout of 405
+[2025-08-09 08:11:39] INFO [rq.worker.handle_warm_shutdown_request:673] Worker c65521051308419a8ce3bacdc2f78700 [PID 15]: warm shut down requested
+[2025-08-09 08:11:39] INFO [rq.worker.unsubscribe:1074] Worker c65521051308419a8ce3bacdc2f78700: unsubscribing from channel rq:pubsub:c65521051308419a8ce3bacdc2f78700
+WARNING:root:GeoIP database not found. Run ./manage.py download_geoip_database to download it.
+/usr/local/lib/python3.10/site-packages/tastypie_swagger/mapping.py:105: SyntaxWarning: "is" with a literal. Did you mean "=="?
+  plural = not detail and method is 'get'
+[2025-08-09 08:11:57] INFO [rq.worker.bootstrap:942] Worker 99dfcdf3d3024e419120f761477795a2: started with PID 15, version 2.4.1
+[2025-08-09 08:11:57] INFO [rq.worker.subscribe:1038] Worker 99dfcdf3d3024e419120f761477795a2: subscribing to channel rq:pubsub:99dfcdf3d3024e419120f761477795a2
+[2025-08-09 08:11:57] INFO [rq.worker.bootstrap:946] *** Listening on system, default, parse_statistics, parse_accounts...
+[2025-08-09 08:11:57] INFO [rq.worker.clean_registries:473] Worker 99dfcdf3d3024e419120f761477795a2: cleaning registries for queue: system
+[2025-08-09 08:11:57] INFO [rq.worker.clean_registries:473] Worker 99dfcdf3d3024e419120f761477795a2: cleaning registries for queue: default
+[2025-08-09 08:11:57] INFO [rq.worker.clean_registries:473] Worker 99dfcdf3d3024e419120f761477795a2: cleaning registries for queue: parse_statistics
+[2025-08-09 08:11:57] INFO [rq.worker.clean_registries:473] Worker 99dfcdf3d3024e419120f761477795a2: cleaning registries for queue: parse_accounts
+[2025-08-09 08:11:57] DEBUG [rq.queue.lpop:1363] Starting BLPOP operation for queues rq:queue:system, rq:queue:default, rq:queue:parse_statistics, rq:queue:parse_accounts with timeout of 405

@@ -215,8 +215,8 @@ CHANNEL_LAYERS = {
 
 
 # Subdomain settings
-SESSION_COOKIE_DOMAIN = ".clist.by"
-SESSION_COOKIE_SECURE = True
+SESSION_COOKIE_DOMAIN = None
+SESSION_COOKIE_SECURE = False
 
 
 # django_rq
@@ -606,7 +606,7 @@ OAUTH2_PROVIDER = {
 }
 
 
-CSRF_COOKIE_SECURE = True
+CSRF_COOKIE_SECURE = False
 
 # HTTP Strict Transport Security
 SECURE_HSTS_SECONDS = 15768000
